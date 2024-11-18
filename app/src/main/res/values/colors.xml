@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Neutral-->
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_50">#f6f6f6</color>
+    <color name="gray_100">#e7e7e7</color>
+    <color name="gray_200">#d1d1d1</color>
+    <color name="gray_300">#b0b0b0</color>
+    <color name="gray_400">#808080</color>
+    <color name="gray_500">#6d6d6d</color>
+    <color name="gray_600">#5d5d5d</color>
+    <color name="gray_700">#4f4f4f</color>
+    <color name="gray_800">#454545</color>
+    <color name="gray_900">#3d3d3d</color>
+    <color name="gray_950">#262626</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Goldenrod -->
+    <color name="primary_50">#fffaeb</color>
+    <color name="primary_100">#fff0c6</color>
+    <color name="primary_200">#ffda76</color> <!-- our primary color -->
+    <color name="primary_300">#ffc84a</color>
+    <color name="primary_400">#ffb120</color>
+    <color name="primary_500">#f98e07</color>
+    <color name="primary_600">#dd6802</color>
+    <color name="primary_700">#b74706</color>
+    <color name="primary_800">#94350c</color>
+    <color name="primary_900">#7a2c0d</color>
+    <color name="primary_950">#461502</color>
+
+</resources>

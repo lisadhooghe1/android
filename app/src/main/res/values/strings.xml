@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Dozer</string>
+
+    <!-- auth -->
+    <string name="com_auth0_scheme">app</string>
+    <string name="com_auth0_domain">dev-1c3ia2woozy0xbqo.us.auth0.com</string>
+    <string name="com_auth0_client_id">ZHb11Q8Q5WbQaqKV0A09NbjyxadXHUia</string>
+    <string name="com_auth0_audience">https://api.dozer.com</string>
+    <string name="com_auth0_grant_type">password</string>
+
+    <string name="login_button">Aanmelden</string>
+    <string name="forgot_password">Wachtwoord vergeten</string>
+    <string name="login_error_message">De combinatie van emailadres en wachtwoord is niet gevonden.</string>
+
+    <string name="loading">laden…</string>
+
+    <!-- Login -->
+    <string name="dozer_title">DOZER</string>
+    <string name="username">Email</string>
+    <string name="password">Wachtwoord</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="list_fragment_label">Machines</string>
+    <string name="detail_fragment_label">Machine Info</string>
+    <string name="back_button">Back</string>
+    <string name="filter_button">Filter</string>
+    <string name="search_button">Search</string>
+
+    <string name="machines_screen">Machines</string>
+    <string name="machines_details_screen">Machine Details Screen</string>
+    <string name="offers_screen">Offers</string>
+    <string name="orders_screen">Quotations</string>
+    <string name="more_screen">More</string>
+    <string name="Machines">Machines</string>
+    <string name="Quotations">Quotations</string>
+    <string name="Orders">Orders</string>
+    <string name="Settings">Settings</string>
+
+    <!-- Machines -->
+    <string name="excavator_caterpillar_description">The Caterpillar 320D is a versatile excavator ideal for heavy-duty projects.</string>
+    <string name="excavator_komatsu_description">The Komatsu PC210LC offers excellent performance and efficiency in various applications.</string>
+    <string name="bulldozer_john_deere_description">The John Deere 670G is a powerful bulldozer known for its reliability and durability.</string>
+    <string name="excavator_hitachi_description">Hitachi ZX350LC is designed for superior performance in tough environments.</string>
+    <string name="wheel_loader_volvo_description">The Volvo EC950F combines power and efficiency for large-scale earthmoving tasks.</string>
+    <string name="crane_liebherr_description">Liebherr LTM 1060-3.1 is a mobile crane known for its lifting capacity and maneuverability.</string>
+    <string name="excavator_case_description">The Case CX300D delivers excellent performance and operator comfort.</string>
+    <string name="telehandler_jcb_description">JCB 540-170 offers versatility in lifting and loading applications.</string>
+    <string name="excavator_bobcat_description">The Bobcat E165 is compact and agile, perfect for tight spaces.</string>
+
+    <string name="excavator_caterpiller_brochureText">excavator_caterpiller_brochureText</string>
+    <string name="excavator_komatsu_brochureText">excavator_komatsu_brochureText</string>
+    <string name="bulldozer_john_deere_brochureText">bulldozer_john_deere_brochureText</string>
+    <string name="excavator_hitachi_brochureText">excavator_hitachi_brochureText</string>
+    <string name="wheel_loader_volvo_brochureText">wheel_loader_volvo_brochureText</string>
+    <string name="crane_liebherr_brochureText">crane_liebherr_brochureText</string>
+    <string name="excavator_case_brochureText">excavator_case_brochureText</string>
+    <string name="telehandler_jcb_brochureText">telehandler_jcb_brochureText</string>
+    <string name="excavator_bobcat_brochureText">excavator_bobcat_brochureText</string>
+
+    <string name="machine_serienummer">Serienummer</string>
+    <string name="machine_type">Type</string>
+    <string name="machine_beschrijving">Beschrijving</string>
+    <string name="machine_brochure_teksten">Brochure teksten</string>
+    <string name="machine_opties">Opties</string>
+    <string name="machine_inruilen">Inruilen</string>
+
+    <!--Other-->
+    <string name="img_placeholder">https://picsum.photos/230</string>
+    <string name="goBack">Go back</string>
+
+
+</resources>
