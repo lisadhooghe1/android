@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        ANDROID_HOME = 'gradle\libs.versions.toml'  // Ensure this matches the path set in Jenkins
+        ANDROID_HOME = 'libs.versions.toml'  // Ensure this matches the path set in Jenkins
         PATH = "${env.ANDROID_HOME}/tools:${env.ANDROID_HOME}/platform-tools:${env.PATH}"
     }
     stages {
