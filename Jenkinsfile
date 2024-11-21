@@ -3,7 +3,7 @@ pipeline {
     environment {
         // Set the Android SDK home and add necessary directories to the PATH
         ANDROID_HOME = "/opt/android-sdk"
-        PATH = "$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$PATH"
+        PATH+EXTRA = "$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$PATH"
         GRADLE_USER_HOME = "$WORKSPACE/.gradle"  // Optional: Cache Gradle dependencies
     }
     stages {
