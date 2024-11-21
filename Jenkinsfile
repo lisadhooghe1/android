@@ -2,8 +2,9 @@ pipeline {
     agent any
     environment {
         // Set the Android SDK home and add necessary directories to the PATH
+        JAVA_HOME = "/usr/lib/jvm/java-17-openjdk-amd64"
         ANDROID_HOME = "/opt/android-sdk"
-        PATH+EXTRA = "$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$PATH"
+        PATH = "${JAVA_HOME}/bin:${ANDROID_HOME}/cmdline-tools/latest/bin:${ANDROID_HOME}/platform-tools:$PATH"
         GRADLE_USER_HOME = "$WORKSPACE/.gradle"  // Optional: Cache Gradle dependencies
     }
     stages {
